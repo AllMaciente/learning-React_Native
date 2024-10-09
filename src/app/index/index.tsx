@@ -5,6 +5,7 @@ import { style } from "./styles";
 import { colors } from "@/styles/colors";
 
 import { Categories } from "@/components/categories";
+import { Link } from "@/components/link";
 
 export default function Index() {
   return (
@@ -16,6 +17,12 @@ export default function Index() {
         </TouchableOpacity>
       </View>
       <Categories />
+
+      <Link
+        name="RocketSeat"
+        url="https://www.rocketseat.com.br"
+        onDetails={() => console.log("Clicou")}
+      />
     </View>
   );
 }
