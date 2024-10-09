@@ -6,6 +6,7 @@ export const style = StyleSheet.create({
   container: {
     flex: 1,
     paddingTop: 62,
+    flexDirection: "column",
   },
   title: {
     color: colors.green[900],
